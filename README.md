@@ -3,9 +3,9 @@
 ## 기초 시작
 1. sklearn 설치 및 환경 구성 (pykeen 설치를 위해선 sklearn 필요)
 ```
-python -m venv sklearn-env
-sklearn-env\Scripts\activate  # activate 
-pip install -U scikit-learn
+python -m venv sklearn-env # sklearn-env 라는 환경 만들기
+sklearn-env\Scripts\activate  # 가상환경 실행 Mac의 경우 source sklearn-env/bin/activate
+pip install -U scikit-learn # 가상환경에 sklearn 패키지 설치
 ```
 2. pykeen 설치(안정 구동을 위해선 파이썬 3.9이상 권장)
 ```
