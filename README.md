@@ -1,6 +1,10 @@
 # KnowledgeGraph
 파이킨 깃헙 : https://github.com/pykeen/pykeen
 ## 기초 시작
+0. requirements 추가 했으니 아래 1번의 가상환경 만들기, 실행만 하고 아래 명령어 실행하면 됨.(2번 무시. python 버전 3.11-3.12 권장)
+```
+pip install -r requirements.txt
+```
 1. sklearn 설치 및 환경 구성 (pykeen 설치를 위해선 sklearn 필요)
 ```
 python -m venv sklearn-env # sklearn-env 라는 환경 만들기
