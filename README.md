@@ -14,7 +14,8 @@ pip install pykeen
 2-1. pykeen 설치 시, sklearn 관련 오류.(<- python 3.12로 설치하면 발생 안함)
 
    pykeen은 구버전 sklearn을 요구하는데 위에 sklearn 설치 방법은 새로운 버전을 설치함. 구버전은 sklearn을 찾지만 신버전은 scikit-learn임.
-   따라서 환경변수를 사용하여 강제로 검사를 통과시킴
+   
+   따라서 환경변수를 사용하여 강제로 검사를 통과시켜야함
 
 ### window의 경우
 ```
