@@ -31,7 +31,7 @@ pip install pykeen
 
 ## 간단한 예시
 이 예시는 TransE 모델이 Nation 데이터 셋을 사용하여 학습한다. result의 metrics_results를 출력하여 성능 확인
-### main
+### main.py
 ```
 from pykeen.pipeline import pipeline
 
